@@ -1,0 +1,44 @@
+.section-fullrecipe {
+    margin: 3%;
+}
+.preparation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.recipe-pic {
+    border: 10px solid #0c977c;
+}
+.ingrediants {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.recipe-time {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px 50px;
+    padding: 10px 75px;
+}
+.preparation-time h4, .cook-time h4, .cooling h4, .servings h4 {
+    color: #0c977c;
+}
+.list {
+    padding: 10px 75px;
+}
+.list {
+    padding: 10px 75px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ingrediants h4 {
+    text-align: center;
+    color: #0c977c;
+}
+.process {
+    padding: 10px;
+}
+.process h3 {
+    text-align: center;
+    color: #0c977c;
+}

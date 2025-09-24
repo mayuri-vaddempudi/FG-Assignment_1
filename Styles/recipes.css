@@ -1,0 +1,51 @@
+section-recipes{
+    width: 100%;
+}
+.recipes-tittle{
+    text-align: center;
+}
+.recipes-types{
+    background-color: beige;
+    margin: 2% 10%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 10px;
+}
+.recipes-types a{
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 5px;
+}
+.dinner_items, .lunch_items, .drinks_items, .desserts_items {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 5%;
+    gap: 35px;
+}
+.dinner_items a, .lunch_items a, .drinks_items a, .desserts_items a {
+    text-decoration: none;
+    color: black;
+}
+.dinner-img, .lunch-img, .drinks-img, .desserts-img {
+    background-color: aliceblue;
+    text-align: center;
+}
+.dinner-img p, .lunch-img p, .drinks-img p, .desserts-img p {
+    padding: 10px;
+}
+@media all and (max-width: 990px){
+
+}
+@media all and (max-width: 600px){
+    .dinner_items, .lunch_items, .drinks_items, .desserts_items {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+}

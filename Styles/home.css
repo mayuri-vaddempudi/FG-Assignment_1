@@ -1,0 +1,146 @@
+.section_first_part{
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 10px;
+  padding: 10px;
+}
+.section_first_part_left {
+    display: inline-block;
+    position: sticky;
+}
+.section_first_part_left img {
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.section_first_part_right {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    height: 725px;
+    overflow: scroll;
+}
+.right-side {
+    background-color: aliceblue;
+}
+.right-side img {
+    border-radius: 10px;
+}
+.right-side-text {
+    display: inline-block;
+    padding: 10px;
+}
+section.section_middle {
+    margin: 5%;
+}
+.trending-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.recipes_tittle {
+    text-align: center;
+}
+.simple_recipes {
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+}
+.recipes_brakefast,.recipes_lunch, .recipes_dinner, .recipes_snacks {
+    width: 30%;
+    border: 2px solid #0c977c;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #a8a5a5;
+}
+.simple_recipes img {
+    border-radius: 10px;
+}
+.simple_recipes p {
+    border-top: 1px solid #0c977c;
+    text-align: center;
+    padding: 5px;
+}
+.section-last {
+    margin: 5%;
+}
+
+.services {
+    text-align: center;
+    margin: 50px;
+}
+.our_services {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+.take_away, .delivery, .buffet {
+    width: 30%;
+}
+.take_away img, .delivery img, .buffet img {
+    border-radius: 50%;
+    border: 10px solid #0c977c;
+}
+.take_away p, .delivery p, .buffet p {
+    position: relative;
+    z-index: 1;
+    margin: -13rem 5rem 7rem 5rem;
+    text-transform: uppercase;
+    background-color: #0c977c;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+@media all and (max-width: 990px){
+    .section_first_part_right {
+        height: 105vh;
+    }
+     .recipes_brakefast, .recipes_lunch, .recipes_dinner, .recipes_snacks {
+    width: 100%;
+    }
+    .our_services {
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    gap: 1rem;
+    }
+    .simple_recipes {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+    .take_away, .delivery, .buffet {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    }
+    .take_away p, .delivery p, .buffet p {
+        margin: -7rem 1rem 2rem 1rem;;
+        padding: 15px 10px;
+    }
+}
+@media all and (max-width: 600px) {
+    .section_first_part {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .section_first_part_right {
+        height: 65vh;
+    }
+    .simple_recipes {
+    gap: 20px;
+    margin: 0px;
+    }
+    .recipes_brakefast, .recipes_lunch, .recipes_dinner, .recipes_snacks {
+    width: 100%;
+    }
+    .our_services {
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .take_away, .delivery, .buffet {
+    width: 65%;
+    padding: 10px;
+    margin: 0% 18%;
+}
+}
