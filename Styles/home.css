@@ -93,8 +93,13 @@ section.section_middle {
     border-radius: 10px;
     font-weight: bold;
 }
+@media (max-width: 1280px) {
+    .section_first_part_right, .section_first_part_left img {
+        height: 105vh;
+    }
+}
 @media all and (max-width: 990px){
-    .section_first_part_right {
+    .section_first_part_right, .section_first_part_left img {
         height: 105vh;
     }
      .recipes_brakefast, .recipes_lunch, .recipes_dinner, .recipes_snacks {
