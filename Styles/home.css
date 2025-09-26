@@ -129,6 +129,9 @@ section.section_middle {
         display: grid;
         grid-template-columns: auto;
     }
+    .section_first_part_left img {
+    max-height: 50vh;
+    }
     .section_first_part_right {
         height: 65vh;
     }
