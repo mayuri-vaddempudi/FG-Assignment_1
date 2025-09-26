@@ -51,4 +51,8 @@ section-recipes{
     display: grid;
     grid-template-columns: auto auto;
 }
+    .recipes-types a {
+    padding: 10px 18px;
+    margin: 2px;
+}
 }
