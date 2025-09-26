@@ -41,7 +41,10 @@ section-recipes{
     padding: 10px;
 }
 @media all and (max-width: 990px){
-
+.recipes-types a {
+    padding: 10px 18px;
+    margin: 2px;
+}
 }
 @media all and (max-width: 600px){
     .dinner_items, .lunch_items, .drinks_items, .desserts_items {
